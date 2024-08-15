@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up for Miso</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="signuphero">
+      <form>
+        <h1>Sign Up</h1>
+        <div class="input">
+          <div class="icon">
+            <label for="Name">Name:</label>
+            <i id="user" class="fa-solid fa-user fa-sm" style="color: #4caf50"></i>
+            <input type="text" placeholder="Full name" />
+          </div>
+          <br />
+          <div class="icon">
+            <label for="email">Email:</label>
+            <i id="mail" class="fa-solid fa-envelope fa-sm"  style="color: #4caf50"></i>
+            <input type="email" placeholder="Enter your Email" />
+          </div>
+          <br />
+          <div class="icon">
+            <label for="password">Password:</label>
+            <i id="eye" class="fa-solid fa-eye-slash fa-sm"  style="color: #4caf50"></i>
+            <input type="password" placeholder="Enter your password" />
+          </div>
+          <br />
+          <div class="icon">
+            <label for="password">Confirm password:</label>
+            <i id="eye2" class="fa-solid fa-eye-slash fa-sm"  style="color: #4caf50"></i>
+            <input type="password" placeholder="Confirm your password" />
+          </div>
+          <br />
+          <div class="icon">
+            <label for="number">Phone No:</label>
+            <i id="phone" class="fa-solid fa-phone fa-sm"  style="color: #4caf50"></i>
+            <input type="number" placeholder="Enter your phone no" />
+          </div>
+          <br />
+            <label for="dob">Date of Birth:</label>
+            <input id="date" type="date" />
+          <br />
+          <label for="country">Country:</label>
+          <select
+            id="country"
+            name="country"
+            style="background-color: rgb(243, 223, 180)"
+          >
+            <option value="nig" style="background-color: rgb(243, 223, 180)">
+              Nigeria
+            </option>
+            <option value="uk" style="background-color: rgb(243, 223, 180)">
+              United Kingdom
+            </option>
+            <option value="canada" style="background-color: rgb(243, 223, 180)">
+              Canada
+            </option>
+          </select>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

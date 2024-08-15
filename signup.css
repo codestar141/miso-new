@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    
+}
+
+.signuphero{
+    position: relative;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./sofa-8827533_1920.png);
+  background-color: rgba(39, 37, 23, 0.719);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  form{
+    padding: 100px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(247, 172, 12);
+    border-radius: 10px;
+    width: 30%;
+    height: 500px;
+    align-items: center;
+
+
+  }
+  form input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 5px;
+    width: 100%;
+    background-color:  rgb(243, 223, 180);
+    padding-left: 25px;
+  }
+
+  input::placeholder{
+    color: #28a745;
+  }
+
+  form label{
+    color: white;
+  }
+
+  form h1{
+    color: #28a745;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 50px;
+    font-family: Pacifico;
+  }
+
+  button{
+    border: none;
+    padding: 10px 55px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #28a745;
+    border-radius: 5px;
+    border: 1px solid green;
+  }
+  .icon{
+    position: relative;
+  }
+#user{
+position: absolute;
+bottom: 13px;
+left: 2px;
+}
+#mail{
+    position: absolute;
+    bottom: 13px;
+    left: 2px; 
+}
+#eye{
+    position: absolute;
+bottom: 13px;
+left: 2px;
+}
+#eye2{
+    position: absolute;
+bottom: 13px;
+left: 2px;
+}
+#phone{
+    position: absolute;
+bottom: 13px;
+left: 2px;
+}
+#date{
+padding-left: 0px;
+color: #28a745;
+}
+option:hover{
+    background-color: #28a745;
+}
